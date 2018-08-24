@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "storybook start -p 7007"
   },
   "dependencies": {
     "prop-types": "^15.6.2",
@@ -23,7 +24,8 @@
     "eslint-plugin-react": "^7.11.0",
     "eslint-plugin-react-native": "^3.2.1",
     "jest": "23.5.0",
-    "react-test-renderer": "16.4.1"
+    "react-test-renderer": "16.4.1",
+    "@kadira/react-native-storybook": "^2.0.0"
   },
   "jest": {
     "preset": "react-native"
